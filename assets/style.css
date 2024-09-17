@@ -16,7 +16,7 @@ body {
 }
 
 body::before {
-    background-image: url("img/candado.png");
+    background-image: url("img/candado.jpeg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -175,4 +175,26 @@ h1:hover {
         width: 100%;
         margin: 20px 0;
     }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #041832;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer p {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.github-logo {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
